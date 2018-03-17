@@ -157,18 +157,19 @@ class test implements ActionListener
 			if(ae.getSource()==one)
 				{
 
-					//if(ae.getSource() == tf)
+					//if(tf.isSelected() == true)
+									
 					{
 						int num1 = Integer.parseInt(tf.getText());
 						tf.setText(""+num1+"1");
 					}
-					/*
-					if(ae.getSource() == tf2)
+					
+				/*	if(tf2.isSelected() == true)
 					{
 						int num2 = Integer.parseInt(tf2.getText());
 						tf2.setText(""+num2+"1");
 					}
-					*/
+				*/	
 
 					p.setBackground(Color.LIGHT_GRAY);
 				}
